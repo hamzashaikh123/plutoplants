@@ -1,11 +1,22 @@
 /* Stylesheet for Pluto Plants */
+@font-face {
+    font-family: blambot;
+    src: url(BlambotProRegular.ttf);
+  }
+
+
 .footer{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
 }
-
+.releasedate{
+    font-family: blambot;
+    color:#6c0c4b;
+    font-size: 20px;
+    text-align: center;
+}
 .miniLogo{
     width: 5%;
 }
