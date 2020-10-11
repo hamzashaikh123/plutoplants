@@ -4,7 +4,10 @@
     src: url(BlambotProRegular.ttf);
   }
 
-
+html, body {
+    margin: 0;
+    height: 100%;
+}
 .footer{
     position: fixed;
     left: 0;
@@ -19,4 +22,14 @@
 }
 .miniLogo{
     width: 5%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
 }
